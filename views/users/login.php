@@ -77,7 +77,7 @@ unset($_SESSION['login_error']);
                                         <a class="small" href="/classified-ads/views/forgot-password.html">Forgot Password?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="/classified-ads/views/register.php">Create an Account!</a>
+                                        <a class="small" href="/classified-ads/views/users/register.php">Create an Account!</a>
                                     </div>
                                 </div>
                             </div>

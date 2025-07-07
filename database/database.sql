@@ -54,7 +54,7 @@ INSERT INTO categories (name) VALUES
                                   ('Tools & Hardware');
 
 INSERT INTO users (firstname, lastname, username, password, email_verified, role, created_at)
-VALUES ('Admin', 'User', 'admin', '$2y$10$6JCSleiUx42CvjQ8BniqN.NWJcFNieLE9IZyADqPL4FtJKLpXG3T2', TRUE, 'admin', NOW());
+VALUES ('Admin', 'User', 'admin@gmail.com', '$2y$10$6JCSleiUx42CvjQ8BniqN.NWJcFNieLE9IZyADqPL4FtJKLpXG3T2', TRUE, 'admin', NOW());
 
 INSERT INTO ads (title, description, price, image, published, sponsored, contact_location, contact_email, user, category, created_at, update_at) VALUES
                                                                                                                                                      ('Product 1', 'Sample description for product 1', '10.00', '', 1, 0, 'Location 1', 'admin@example.com', '1', '1', NOW(), NOW()),
